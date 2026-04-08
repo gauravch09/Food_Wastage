@@ -8,7 +8,7 @@ import { Avatar, AvatarFallback, AvatarImage } from '@/components/ui/avatar';
 import PublicHeader from '@/components/layout/public-header';
 import PublicFooter from '@/components/layout/public-footer';
 
-const heroImage = PlaceHolderImages.find((img) => img.id === 'hero-restaurant');
+const heroImage = PlaceHolderImages.find((img) => img.id === 'hero-image');
 const featureImage1 = PlaceHolderImages.find((img) => img.id === 'feature-1');
 const featureImage2 = PlaceHolderImages.find((img) => img.id === 'feature-2');
 

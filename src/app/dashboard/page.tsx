@@ -10,9 +10,9 @@ import { Skeleton } from '@/components/ui/skeleton';
 import WasteTrendsChart from '@/components/dashboard/waste-trends-chart';
 
 export default function DashboardPage() {
-  const { wasteData, addWasteEntry, isLoaded, clearWasteData } = useWasteData();
+  const { wasteData, addWasteEntry, isLoading, clearWasteData } = useWasteData();
 
-  if (!isLoaded) {
+  if (isLoading) {
     return (
       <div className="space-y-6">
         <Skeleton className="h-10 w-48" />

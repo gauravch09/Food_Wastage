@@ -245,7 +245,7 @@ export default function ImageUploadForm({ onWasteAdd }: ImageUploadFormProps) {
               onClick={() => fileInputRef.current?.click()}
             >
               {preview ? (
-                <Image src={preview} alt="Preview" fill style={{ objectFit: 'cover' }} className="rounded-lg" />
+                <Image src={preview} alt="Preview" fill style={{ objectFit: 'cover' }} className="rounded-lg" unoptimized />
               ) : (
                 <div className="flex flex-col items-center justify-center text-muted-foreground">
                   <Upload className="w-8 h-8" />

@@ -221,6 +221,7 @@ export default function WasteLogTable({ wasteData, clearWasteData }: WasteLogTab
                               height="64"
                               src={item.imageUrl}
                               width="64"
+                              unoptimized
                             />
                         </DialogTrigger>
                         <DialogContent className="max-w-xl">
@@ -233,6 +234,7 @@ export default function WasteLogTable({ wasteData, clearWasteData }: WasteLogTab
                                     className="rounded-md object-contain"
                                     src={item.imageUrl}
                                     fill
+                                    unoptimized
                                 />
                             </div>
                         </DialogContent>
